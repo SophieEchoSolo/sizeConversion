@@ -23,6 +23,8 @@ def main():
                 break
             else:
                 partSize = float(input("Enter the measurement in cm: "))
+                sizes.update({clothesParts: round((partSize * 0.393701))})
+
 
 
     else: 
